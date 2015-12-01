@@ -33,6 +33,7 @@ if (have_posts()) : while (have_posts()) : the_post();
   <div class="col-xs-12">
 
 
+
 <?php 
 
 $args = array ('post_type' => 'photo',
@@ -80,6 +81,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
   <div class="col-xs-12 categories-title">
     <h2>Categories</h2>
+    <a href="<?php bloginfo('url'); ?>/posts-by-category">Landmarks</a>
   </div>
   <div class="col-xs-4 categories">
 
