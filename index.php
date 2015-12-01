@@ -17,7 +17,17 @@ if (have_posts()) : while (have_posts()) : the_post();
 
  -->
 
+<div class="row hd-image">
+    <div class="col-xs-12">
+      <div class="hd-search">
+          <?php get_search_form();?>
+        </div>
+    </div>
+  </div>
 
+
+
+<hr>
 
 <div class="row concrete">
   <div class="col-xs-12">
@@ -45,6 +55,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
           <img class="img-responsive" src="<?php the_field('image');?>" alt="">
           <br>
           <?php the_title();?>
+          <?php the_category(', '); ?>
         </a>
 <!--and other output of the loop -->
  
@@ -54,6 +65,38 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 </div><!--end box-wrap-->
 </div><!-- end of column -->
 </div> <!-- end of row concrete -->
+
+
+
+<div class="row">
+
+<?php
+        $defaults = array(
+          'menu_class'      => 'nav nav-pills',
+);
+        wp_nav_menu( $defaults );
+?>
+
+
+  <div class="col-xs-12 categories-title">
+    <h2>Categories</h2>
+  </div>
+  <div class="col-xs-4 categories">
+
+
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
 <div class="row">
   <div class="col-xs-12 lower-stuff">
       

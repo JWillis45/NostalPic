@@ -11,8 +11,8 @@
 </head>
 <body>
   <div class="container">
-
-  	<div class="row hd-nav">
+    
+    <div class="row hd-nav">
   		<div class="col-xs-3 left-side">
   			<p>Photos | Illustrations</p>
   		</div>
@@ -26,10 +26,4 @@
 
  	
 
- 	<div class="row hd-image">
- 		<div class="col-xs-12">
- 			<div class="hd-search">
-	  			<?php get_search_form();?>
-	  		</div>
- 		</div>
- 	</div>
+ 	
