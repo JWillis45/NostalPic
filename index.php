@@ -54,26 +54,34 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
     <div class="row">
       <div class="col-xs-7 home-thumbs-left">
         <div class="row">
-          <div class="col-xs-6 home-thumbs">
+          <div class="col-xs-6">
+            <div class= "home-thumbs">
             <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/typewriter.png" alt="">
             </a>
+            </div>
           </div>
-          <div class="col-xs-6 home-thumbs2">
+          <div class="col-xs-6">
+            <div class= "home-thumbs2">
               <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/truck.png" alt="">
             </a>
+            </div>
           </div>
 
-          <div class="col-xs-6 home-thumbs">
+          <div class="col-xs-6">
+            <div class= "home-thumbs">
             <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/coke.png" alt="">
             </a>
+            </div>
           </div>
-          <div class="col-xs-6 home-thumbs2">
+          <div class="col-xs-6">
+            <div class= "home-thumbs2">
               <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/bike.png" alt="">
             </a>
+            </div>
           </div>
         </div>
       </div>
@@ -92,33 +100,41 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 <div class="row home-categories">
   <div class="col-xs-12 categories-title">
-    <h1>Search By Category</h1>
+    <h1>Browse By Category</h1>
   </div>
   
   
-  <div class="col-xs-4">
+  <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/animals">Animals</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/people-2">People</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/food">Food</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/illustrations">Illustrations</a></ul>
-    <ul><a href="<?php bloginfo('url'); ?>/toys">Toys</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/music">Music</a></ul>
+    
   </div>
-  <div class="col-xs-4">
+  <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/people">Landmarks</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/accessories">Accessories</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/transportation">Transportation</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/entertainment">Entertainment</a></ul>
-    <ul><a href="<?php bloginfo('url'); ?>/communications">Communications</a></ul>
-    <ul><a href="<?php bloginfo('url'); ?>/nature">Nature</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/toys">Toys</a></ul>
+    
   </div>
-  <div class="col-xs-4">
+  <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/stationery">Stationery</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/travel">Travel</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/Buildings">Buildings</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/industrial">Industrial</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/nature">Nature</a></ul>
+    
+  </div>
+  <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/business">Business</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/typography">Typography</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/communications">Communications</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/editorial">Editorial</a></ul>
+    
+    
   </div>
 </div><!-- end of row home-categories -->
 
