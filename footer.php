@@ -2,6 +2,6 @@
 		<?php wp_footer(); ?>
 	</div>
       
-</div><!-- x content -->
+<!-- x content -->
 </body>
 </html>
