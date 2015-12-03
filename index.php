@@ -32,8 +32,9 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 
 
-
+<div class="banner">
 <!-- Search Form -->
+<div class="container">
   <div class="row hd-image">
     <div class="col-xs-12">
       <div class="hd-search">
@@ -42,26 +43,27 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
     </div>
   </div>
 <!-- End Search Form -->
-
+</div>
+</div>
 <hr>
 
 
 
-
-
+<div class="banner2">
+<div class="container TEMP">
 <div class="row concrete">
-  <div class="container TEMP">
-    <div class="row">
-      <div class="col-xs-7 home-thumbs-left">
+  
+    
+      <div class="col-xs-12 col-sm-8 home-thumbs-left">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-xs-12 col-sm-6">
             <div class= "home-thumbs">
             <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/typewriter.png" alt="">
             </a>
             </div>
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs-12 col-sm-6">
             <div class= "home-thumbs2">
               <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/truck.png" alt="">
@@ -69,14 +71,14 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
             </div>
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-xs-12 col-sm-6">
             <div class= "home-thumbs">
             <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/coke.png" alt="">
             </a>
             </div>
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs-12 col-sm-6">
             <div class= "home-thumbs2">
               <a href="<?php the_permalink() ?>">
               <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/bike.png" alt="">
@@ -86,18 +88,21 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
         </div>
       </div>
 
-    <div class="col-xs-4 home-thumbs-lg">
+    <div class="col-xs-12 col-sm-4">
+      <div class="home-thumbs-lg">
       <a href="<?php bloginfo('url'); ?>/people">
           <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/diner.png" alt="">
         </a>
-
+      </div>
      </div>
-  </div>
+  
   </div>
 </div><!-- end of row concrete -->
+</div>
+<hr>
 
-<hr class = "hr2">
-
+<div class="banner3">
+<div class="container">
 <div class="row home-categories">
   <div class="col-xs-12 categories-title">
     <h1>Browse By Category</h1>
@@ -137,6 +142,8 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
     
   </div>
 </div><!-- end of row home-categories -->
+</div>
+</div>
 
 
 <!--
