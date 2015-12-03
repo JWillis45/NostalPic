@@ -56,33 +56,37 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
     
       <div class="col-xs-12 col-sm-8 home-thumbs-left">
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 h-thumbs-col2">
             <div class= "home-thumbs">
-            <a href="<?php the_permalink() ?>">
-              <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/typewriter.png" alt="">
+            <a href="<?php bloginfo('url'); ?>/business">
+              <img class="img-responsive one" src="" alt="">
             </a>
+            <h4 class="home-thumb-titles">Business</h4>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 h-thumbs-col">
             <div class= "home-thumbs2">
-              <a href="<?php the_permalink() ?>">
-              <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/truck.png" alt="">
+              <a href="<?php bloginfo('url'); ?>/transportation">
+              <img class="img-responsive three" src="" alt="">
             </a>
+            <h4 class="home-thumb-titles">Transportation</h4>
             </div>
           </div>
 
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 h-thumbs-col2">
             <div class= "home-thumbs">
-            <a href="<?php the_permalink() ?>">
-              <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/coke.png" alt="">
+            <a href="<?php bloginfo('url'); ?>/food">
+              <img class="img-responsive two" src="" alt="">
             </a>
+            <h4 class="home-thumb-titles">Food</h4>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 h-thumbs-col">
             <div class= "home-thumbs2">
-              <a href="<?php the_permalink() ?>">
-              <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/bike.png" alt="">
+              <a href="<?php bloginfo('url'); ?>/urban">
+              <img class="img-responsive four" src="" alt="">
             </a>
+            <h4 class="home-thumb-titles">Urban</h4>
             </div>
           </div>
         </div>
@@ -90,9 +94,10 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
     <div class="col-xs-12 col-sm-4">
       <div class="home-thumbs-lg">
-      <a href="<?php bloginfo('url'); ?>/people">
-          <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/diner.png" alt="">
+      <a href="<?php bloginfo('url'); ?>/typography">
+          <img class="img-responsive" src="" alt="">
         </a>
+        <h4 class="home-thumb-titles">Typography</h4>
       </div>
      </div>
   
@@ -127,7 +132,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   </div>
   <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/stationery">Stationery</a></ul>
-    <ul><a href="<?php bloginfo('url'); ?>/travel">Travel</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/communications">Communications</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/Buildings">Buildings</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/industrial">Industrial</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/nature">Nature</a></ul>
@@ -136,9 +141,10 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   <div class="col-xs-3 cat-lists">
     <ul><a href="<?php bloginfo('url'); ?>/business">Business</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/typography">Typography</a></ul>
-    <ul><a href="<?php bloginfo('url'); ?>/communications">Communications</a></ul>
+    <ul><a href="<?php bloginfo('url'); ?>/travel">Travel</a></ul>
     <ul><a href="<?php bloginfo('url'); ?>/editorial">Editorial</a></ul>
-    
+    <ul><a href="<?php bloginfo('url'); ?>/urban">Urban</a></ul>
+
     
   </div>
 </div><!-- end of row home-categories -->
