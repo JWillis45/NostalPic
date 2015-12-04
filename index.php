@@ -151,7 +151,49 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 </div>
 </div>
 
+<div class="banner4">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-3 great-images">
+        <img src="<?php bloginfo ('template_directory') ?>/images/great-images.png" alt="">
+      </div>
+      <div class="col-xs-6 home-signup">
+        <?php the_field('signup_form', 'options'); ?>
 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="banner5">
+  <div class="container">
+  <div class="row home-bottom">
+    <div class="col-xs-5 app">
+      <h2>Access NostalPic Instantly!</h2>
+      <h4>Access the Nostalpic page instantly using the Nostalpic phone app, available on the android market atnd the iPhone</h4>
+    </div>
+    <div class="col-xs-7"></div>
+  </div>
+  </div>
+</div>
+
+<div class="banner6">
+  <div class="container footer">
+    <div class="col-xs-3">
+      <p>2015 NostalPic</p>
+    </div>
+    <div class="col-xs-6">
+      <p>Legal | Privacy Policy | Terms of Use | Membership Agreement | About Us</p>
+    </div>
+    <div class="col-xs-3 social-media">
+      <a href="https://www.instagram.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/facebook.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/twitter.png" alt=""></a>
+
+    </div>
+  </div>
+</div>
 <!--
 <div class="row concrete">
         
@@ -220,8 +262,8 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
  	 -->
 
 
-      <p>Sorry, no pages matched your criteria.</p>
-    <?php endif; wp_reset_postdata();?>
+      <!-- <p>Sorry, no pages matched your criteria.</p>
+    <?php endif; wp_reset_postdata();?> -->
   
 </div>
 

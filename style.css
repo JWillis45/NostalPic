@@ -95,15 +95,10 @@
 
 hr {
 	height:7px;
-	
 	border:solid #000;
 	background-color: #000;
 	margin: 0px;
 }
-
-
-
-
 
 .box-1 { 
 	float:left; 
@@ -153,6 +148,40 @@ hr {
 	background-size:cover;
 	margin:0px;
 	padding:0px;
+}
+
+.banner4 {
+	background: url('images/photo-girl.png') no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	height: 552px;
+}
+
+.banner5 {
+	background: url('images/home-blurry.png') no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	height: 398px;
+}
+
+.banner6 {
+background-color: #000;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	height: 70px;
+	
 }
 
 .concrete {
@@ -372,6 +401,81 @@ hr {
 	margin:auto;
 	
 }
+
+.home-signup {
+	padding-left: 200px;
+	margin-top: 100px;
+
+}
+
+.gform_title {
+	color: #fff;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.ginput_container_text {
+	width: 800px;
+}
+
+.ginput_container_email {
+	width: 800px;
+}
+
+.great-images {
+	padding-top: 200px;
+	padding-left: 60px;
+}
+
+.gfield_checkbox {
+	color: #fff;
+}
+
+.home-bottom {
+
+}
+
+.app h2 {
+	margin-top: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+.app h4 {
+	margin-top: 100px;
+	text-align: left;
+	color: #fff;
+}
+
+.footer p{
+	padding-top: 25px;
+	color: #fff;
+}
+
+.social-media {
+	padding-top: 15px;
+	color: #fff;
+}
+
+.social-media img {
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*==========  Non-Mobile First Method  ==========*/
