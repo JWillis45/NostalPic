@@ -53,6 +53,33 @@
 	padding-left: 15px;
 }
 
+.header-long-search #s {
+	font-size: 20px;
+	vertical-align: top;
+	padding:5px;
+	border:none;
+	width: 98%;
+	height: 50px;
+	padding-left: 100px;
+
+}
+
+
+.header-long-search #searchsubmit {
+	color:#000;
+	padding:5px 14px;
+	vertical-align: top;
+	border:none;
+	height: 50px;
+	background-color:#fff;
+	background-image: url('images/searchglass.png');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 10px 3px;
+	margin-left: -1120px;
+	
+}
+
 .search-results-headline {
 	color:#1066b5;
 	background-color: #8dbeeb;
@@ -99,6 +126,17 @@ hr {
 	background-color: #000;
 	margin: 0px;
 }
+
+.search-hr {
+	height: 2px;
+	border:none;
+	background-color: #ccc;
+	margin-left: -127px;
+	width:1423px;
+	margin-top:0px
+
+}
+
 
 .box-1 { 
 	float:left; 
@@ -447,10 +485,63 @@ background-color: #000;
 	color: #fff;
 }
 
+
+.menu-item-8617 a:after {
+	content: " | ";
+	color:#fff;
+	margin-left: 10px;
+}
+
+.menu-item-8618 a:after {
+	content: " | ";
+	color:#fff;
+	margin-left: 10px;
+}
+
+.menu-item-8619 a:after {
+	content: " | ";
+	color:#fff;
+	margin-left: 10px;
+	
+}
+
+.menu-item-8687 a:after {
+	content: " | ";
+	color:#fff;
+	margin-left: 10px;
+	
+}
+
+#menu-menu-2 li a {
+	color: #fff;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+#menu-menu-2 li a:hover{
+	background:none;
+	color:#634e3d;
+}
+
+.menu-menu-1-container {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 265px;
+}
+
+.social-media {
+	text-align: right;
+}
+.bottom-nav {
+	margin-left: -50px;
+}
 .footer p{
 	padding-top: 25px;
 	color: #fff;
 }
+
 
 .social-media {
 	padding-top: 15px;
