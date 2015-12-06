@@ -178,22 +178,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   </div>
 </div>
 
-<div class="banner6">
-  <div class="container footer">
-    <div class="col-xs-3">
-      <p>2015 NostalPic</p>
-    </div>
-    <div class="col-xs-6">
-      <p>Legal | Privacy Policy | Terms of Use | Membership Agreement | About Us</p>
-    </div>
-    <div class="col-xs-3 social-media">
-      <a href="https://www.instagram.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/facebook.png" alt=""></a>
-            <a href="https://www.twitter.com/"><img src="<?php bloginfo ('template_directory'); ?>/images/twitter.png" alt=""></a>
 
-    </div>
-  </div>
-</div>
 <!--
 <div class="row concrete">
         
