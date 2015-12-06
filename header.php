@@ -26,6 +26,27 @@
   	</div><!-- end hd-nav -->
   </div>
 
+
+<div class="container header-long-search">
+  <div class="row">
+    
+        <?php
+          
+          if(( is_home() )){
+}
+          else{
+              get_search_form();
+              echo '<hr class="search-hr">';
+}
+?>
+   
+
+    
+    
+  </div>
+
+</div>
+
  	
 
  	
