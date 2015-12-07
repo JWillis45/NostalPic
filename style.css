@@ -154,12 +154,29 @@ hr {
 	display:inline;
 	margin-top: -45px;
 	margin-right: 74px;
+
 }
 
 .dropdown-toggle {
 	border:none;
 	font-size: 20px;
+	
 }
+
+.dropdown-toggle:hover {
+	border:none;
+	font-size: 20px;
+	background:none;
+}
+
+#dropdownMenu1:active {
+	background: none;
+}
+
+#dropdownMenu1 {
+	background: none;
+}
+
 .box-1 { 
 	float:left; 
 	clear:left;
