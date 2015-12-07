@@ -15,10 +15,12 @@
   <div class="container-fluid">
       <div class="row hd-nav">
     		<div class="col-xs-3 left-side">
-    			<p>Photos | Illustrations</p>
+    			<p> <a href="<?php bloginfo('url'); ?>/photos">Photos</a> |
+              <a href="<?php bloginfo('url'); ?>/illustrations">Illustrations</a>
+          </p>
     		</div>
     		<div class="col-xs-6 logo">
-    			<img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/> 
+    			<a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
     		</div>
     		<div class="col-xs-3 right-side">
     			<p>Sign Up | Login | Pricing</p>
@@ -36,7 +38,38 @@
 }
           else{
               get_search_form();
+               echo  '<div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        | Categories
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="animals">Animals</a></li>
+                        <li><a href="people-2">People</a></li>
+                        <li><a href="food">Food</a></li>
+                        <li><a href="illustrations">Illustrations</a></li>
+                        <li><a href="music">Music</a></li>
+                        <li><a href="landmarks">Landmarks</a></li>
+                        <li><a href="accessories">Accessories</a></li>
+                        <li><a href="transportation">Transportation</a></li>
+                        <li><a href="entertainment">Entertainment</a></li>
+                        <li><a href="toys">Toys</a></li>
+                        <li><a href="stationery">Stationery</a></li>
+                        <li><a href="communications">Communications</a></li>
+                        <li><a href="buildings">Buildings</a></li>
+                        <li><a href="industrial">Industrial</a></li>
+                        <li><a href="nature">Nature</a></li>
+                        <li><a href="business">Business</a></li>
+                        <li><a href="typography">Typography</a></li>
+                        <li><a href="travel">Travel</a></li>
+                        <li><a href="editorial">Editorial</a></li>
+                        <li><a href="urban">Urban</a></li>
+                        
+                      </ul>
+                    </div>';
               echo '<hr class="search-hr">';
+             
+
 }
 ?>
    
