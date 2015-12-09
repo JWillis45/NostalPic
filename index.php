@@ -52,7 +52,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 <div class="banner2">
 <div class="container TEMP">
 <div class="row concrete">
-  
+  <div class="all-home-thumbs">
     
       <div class="col-xs-12 col-sm-8 home-thumbs-left">
         <div class="row">
@@ -100,6 +100,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
         <h4 class="home-thumb-titles">Typography</h4>
       </div>
      </div>
+  </div>
   
   </div>
 </div><!-- end of row concrete -->

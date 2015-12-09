@@ -254,7 +254,7 @@ hr {
 }
 
 .banner6 {
-background-color: #000;
+	background-color: #000;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -285,6 +285,7 @@ background-color: #000;
 	padding: 95px 0px;
 	padding-bottom: 80px;
 	margin-bottom: 20px;
+	
 }
 
 .home-thumbs {
@@ -314,6 +315,15 @@ background-color: #000;
 	transition: .6s ease-in-out;
 }
 
+.concrete {
+	width: 1300px;
+}
+
+.all-home-thumbs {
+	margin:0px auto;
+	width: 1175px;
+	margin-left: -45px;
+}
 
 .home-thumbs a img.one:hover{
 	background: url('images/typewriter-zoom.png') no-repeat center center;
@@ -476,14 +486,9 @@ background-color: #000;
 	margin-top:150px;
 }
 
-.concrete {
-	padding: auto;
-}
 
 .TEMP {
-	margin-right: 12%;
-	position: relative;
-	margin:auto;
+
 	
 }
 
