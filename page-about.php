@@ -23,7 +23,7 @@ Template Name: About Page
 </div>
 
 <!-- The Team -->
-<div class="container minHeight">
+<div class="container minHeight stretchAcross">
   <div class="row">
     <!-- Heading of Section -->
     <div class="col-xs-12 text-center heading-team">

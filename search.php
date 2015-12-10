@@ -1,20 +1,41 @@
 <?php get_header(); ?>
+<div class="banner9">
+<div class="banner8">
+	<div class="container">
+		<div class="row">
 
+		<h1 class = "search-results-headline">Search Results For: <?php the_search_query();?></h1>
+		</div>
 
-<h1 class = "search-results-headline">Search Results For: <?php the_search_query();?></h1>
+		
+		<div class="row search-images">
+		<div class="col-xs-12 search-images-col">
 
-<?php 
-  if (have_posts()) : while (have_posts()) : the_post(); 
-?>
+			
+			<?php 
+		  if (have_posts()) : while (have_posts()) : the_post(); 
+		?>
+				
+				  	<a href="<?php the_permalink(); ?>">
+				      <img class="img-responsive" src="<?php the_field('image');?>" alt="">
+				    </a>
+				  
+			  	
+		  
+		
+		 
+		  
+		  
 
-  <a href="<?php the_permalink() ?>">
-      <img src="<?php the_field('image');?>" alt="">
-      <?php the_title();?>
-  </a>  
-  <br> 
+		  <?php endwhile; else: ?>
+		    <p>Sorry, no posts matched your criteria.</p>
+		<?php endif; wp_reset_postdata();?>
+		</div>
+	</div>
+</div>
 
-  <?php endwhile; else: ?>
-    <p>Sorry, no posts matched your criteria.</p>
-<?php endif; wp_reset_postdata();?>
+</div>
+</div>
+
 
 <?php get_footer(); ?>
