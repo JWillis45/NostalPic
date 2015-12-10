@@ -4,8 +4,38 @@
   Author: Joe, Anthony, Irvin
 */
 
+.search-images {
+	width:20%;
+	float: left;
+	display: inline;
+}
+
+.search-images img {
+	width: 270px;
+	height: 270px;
+	float: left;
+	display: inline;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	border:solid #fff;
+	border-width:1px;
+}
+
+.search-images-col {
+	width: 1300px;
+	margin:auto;
+	margin-left: -45px;
+	margin-top: 25px;
+}
 
 
+h1, h2, h3, h4, p, ul {
+	font-family: 'Slabo 13px', serif;
+}
+
+.cat-lists ul a:hover {
+		color: #d9b686;
+}
 
 .main-display {
 	background-color: red;
@@ -72,14 +102,14 @@
 	background-image: url('images/searchglass.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
-	background-position: 10px 3px;
-	margin-left: -1120px;
+	background-position: 10px 5px;
+	margin-left: -1150px;
 	
 }
 
 
 .search-results-headline {
-	color:#fff;
+	color:#000;
 	font-size: 40px;
 	text-align: center;
 }
@@ -152,7 +182,7 @@ hr {
 	width: 50px;
 	display:inline;
 	margin-top: -45px;
-	margin-right: 74px;
+	margin-right: 105px;
 
 }
 
@@ -275,6 +305,20 @@ hr {
 	padding:0px;
 	height: 1550px;
 	background-repeat: no-repeat;
+
+}
+
+.banner9 {
+	background-color: #c2c2c2;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	height: 1550px;
+	background-repeat: no-repeat;
+	padding-top: 20px;
 }
 
 .concrete {
