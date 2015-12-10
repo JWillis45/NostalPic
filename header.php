@@ -4,10 +4,13 @@
 	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	 <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'> 
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
-	<?php wp_head();?>
+  <?php wp_head();?>
 </head>
 <body>
 
@@ -49,7 +52,7 @@
                         <li><a href="food">Food</a></li>
                         <li><a href="illustrations">Illustrations</a></li>
                         <li><a href="music">Music</a></li>
-                        <li><a href="landmarks">Landmarks</a></li>
+                        <li><a href="people">Landmarks</a></li>
                         <li><a href="accessories">Accessories</a></li>
                         <li><a href="transportation">Transportation</a></li>
                         <li><a href="entertainment">Entertainment</a></li>
