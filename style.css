@@ -628,12 +628,28 @@ hr {
 	color:#d9b686;
 }
 
+#menu-menu-1 li a {
+	color: #fff;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+#menu-menu-1 li a:hover{
+	background:none;
+	color:#d9b686;
+}
+
 .menu-menu-1-container {
 	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	width: 265px;
+	width: 270px;
+}
+
+#menu-menu-1 ul {
+	margin:0px auto;
+	float: left;
 }
 
 .social-media {
@@ -656,6 +672,15 @@ hr {
 .social-media img {
 	margin-left: 15px;
 }
+
+.cat-title {
+	width: 100%;
+}
+
+
+
+
+
 
 
 

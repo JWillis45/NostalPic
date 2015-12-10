@@ -4,7 +4,7 @@ Template Name: Categories Page
 */
 ?>
 
-<div class="row">
+<div class="row cat-title">
 
 <h1><?php wp_title(''); ?></h1>
 
