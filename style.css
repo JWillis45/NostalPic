@@ -325,7 +325,6 @@ hr {
 	
 	background-repeat: no-repeat;
 	background-size: 100%;
-	margin-top:-20px;
 	padding: 95px 0px;
 	padding-bottom: 80px;
 	margin-bottom: 20px;
@@ -355,12 +354,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
-}
-
-.concrete {
-	width: 1300px;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 .all-home-thumbs {
@@ -381,8 +376,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 
@@ -398,8 +393,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 
@@ -415,8 +410,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 
@@ -445,7 +440,7 @@ hr {
 	padding-bottom: 40px;
 	background-color: #fff;	
 	width: 460px;
-	margin-left:-25px;
+	margin-left:-26px;
 	height: 627px;
 
 }
@@ -457,8 +452,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 
 }
 
@@ -469,8 +464,8 @@ hr {
 	margin-bottom: 10px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
 
 }
 
@@ -696,8 +691,188 @@ hr {
 
 
 
-
 /*==========  Non-Mobile First Method  ==========*/
+
+	
+	/* Extra breakpoint for home-thumbs responsiveness */
+
+@media only screen and (max-width : 1300px) {
+
+.hd-search #searchsubmit {
+	background-color: purple;
+	color:#fff;
+	padding:5px 14px;
+	vertical-align: top;
+	border:solid #000;
+}
+
+.all-home-thumbs {
+	margin:0px auto;
+	width: 1000px;
+	margin-left: -45px;
+}
+
+.home-thumbs {
+	width:282px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+}
+
+.h-thumbs-col2 {
+	padding-right:3px;
+	
+}
+
+.home-thumbs img.one {
+	height: 201px;
+	width: 282px;
+	background: url('images/typewriter-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.home-thumbs a img.one:hover{
+	background: url('images/typewriter-zoom-md.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs img.two {
+	height: 201px;
+	width: 282px;
+	background: url('images/coke-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-ol
+}
+
+
+.home-thumbs a img.two:hover{
+	background: url('images/coke-zoom-md.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.three {
+	height: 201px;
+	width: 282px;
+	background: url('images/truck-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.three:hover{
+	background: url('images/truck-zoom-md.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.four {
+	height: 201px;
+	width: 282px;
+	background: url('images/bike-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.four:hover{
+	background: url('images/bike-zoom-md.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 {
+	margin-bottom:28px;
+	width:282px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+}
+
+.h-thumbs-col2 {
+	margin-right:-10px;
+	
+}
+.home-thumbs-lg {
+	border:solid #fff;
+	border-width: 8px;
+	padding-bottom: 40px;
+	background-color: #fff;	
+	width: 402px;
+	margin-left:-47px;
+	height: 552px;
+
+}
+
+.home-thumbs-lg img{
+	height: 492px;
+	width: 402px;
+	background: url('images/diner-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.home-thumbs-lg img:hover{
+	height: 492px;
+	width: 402px;
+	background: url('images/diner-zoom-md.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.all-home-thumbs {
+	margin:0px auto;
+	width: 1000px;
+	margin-left: 54px;
+}
+
+} 
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
@@ -710,7 +885,164 @@ hr {
 	border:solid #000;
 }
 
-    }
+.home-thumbs {
+	width:240px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+}
+
+.h-thumbs-col2 {
+	padding-right:3px;
+	
+}
+
+.home-thumbs img.one {
+	height: 171px;
+	width: 240px;
+	background: url('images/typewriter-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.home-thumbs a img.one:hover{
+	background: url('images/typewriter-zoom-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs img.two {
+	height: 171px;
+	width: 240px;
+	background: url('images/coke-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-ol
+}
+
+
+.home-thumbs a img.two:hover{
+	background: url('images/coke-zoom-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.three {
+	height: 171px;
+	width: 240px;
+	background: url('images/truck-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.three:hover{
+	background: url('images/truck-zoom-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.four {
+	height: 171px;
+	width: 240px;
+	background: url('images/bike-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.home-thumbs2 a img.four:hover{
+	background: url('images/bike-zoom-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 {
+	margin-bottom:28px;
+	width:240px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+	margin-bottom: -10px;
+}
+
+.h-thumbs-col2 {
+	margin-right:-10px;
+	
+}
+.home-thumbs-lg {
+	border:solid #fff;
+	border-width: 8px;
+	padding-bottom: 40px;
+	background-color: #fff;	
+	width: 350px;
+	margin-left:-45px;
+	height: 482px;
+
+}
+
+.home-thumbs-lg img{
+	height: 421px;
+	width: 350px;
+	background: url('images/diner-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.home-thumbs-lg img:hover{
+	height: 421px;
+	width: 350px;
+	background: url('images/diner-zoom-sm.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.all-home-thumbs {
+	margin:0px auto;
+	width: 845px;
+	margin-left: 34px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
@@ -723,7 +1055,157 @@ hr {
 	border:solid #000;
 }
 
-    }
+.all-home-thumbs {
+	margin:0px auto;
+	width: 800px;
+	margin-left: -4px;
+}
+
+.home-thumbs a img.one:hover{
+	background: url('images/typewriter-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs img.two {
+	height: 238px;
+	width: 350px;
+	background: url('images/coke.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs a img.two:hover{
+	background: url('images/coke-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.three {
+	height: 238px;
+	width: 350px;
+	background: url('images/truck.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.three:hover{
+	background: url('images/truck-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.four {
+	height: 238px;
+	width: 350px;
+	background: url('images/bike.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.four:hover{
+	background: url('images/bike-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 {
+	margin-bottom:37px;
+	width:350px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.home-thumbs2 img {
+	margin-bottom: 10px;
+}
+
+.home-thumbs {
+	width:350px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+}
+
+.h-thumbs-col2 {
+	padding-right:3px;
+	
+}
+
+.home-thumbs img.one {
+	height: 238px;
+	width: 350px;
+	background: url('images/typewriter.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+
+.home-thumbs-lg {
+	border:solid #fff;
+	border-width: 8px;
+	padding-bottom: 40px;
+	background-color: #fff;	
+	width: 460px;
+	margin-left:135px;
+	height: 627px;
+
+}
+
+.home-thumbs-lg img{
+	height: 566px;
+	width: 100%;
+	background: url('images/diner.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.home-thumbs-lg img:hover{
+	height: 566px;
+	width: 100%;
+	background: url('images/diner-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+   
+
+}
+
+    
+
+
+
+
+
+
+
+
+
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
@@ -736,7 +1218,172 @@ hr {
 	border:solid #000;
 }
 
-    }
+.home-thumbs {
+	width:380px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+	float:left;
+	margin-bottom:40px;
+}
+
+.home-thumbs img.one {
+	height: 238px;
+	width: 380px;
+	background: url('images/typewriter-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.home-thumbs a img.one:hover{
+	background: url('images/typewriter-zoom-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs img.two {
+	height: 238px;
+	width: 500px;
+	background: url('images/coke-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-ol
+}
+
+
+.home-thumbs a img.two:hover{
+	background: url('images/coke-zoom-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.three {
+	height: 238px;
+	width: 380px;
+	background: url('images/truck-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.three:hover{
+	background: url('images/truck-zoom-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.four {
+	height: 238px;
+	width: 380px;
+	background: url('images/bike-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.home-thumbs2 a img.four:hover{
+	background: url('images/bike-zoom-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 {
+	margin-bottom:50px;
+	width:380px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+	float:left;
+}
+
+.h-thumbs-col {
+	padding:0px;
+}
+
+.h-thumbs-col2 {
+	padding:0px;	
+}
+
+.home-thumbs-lg {
+	border:solid #fff;
+	border-width: 8px;
+	padding-bottom: 40px;
+	background-color: #fff;	
+	width: 380px;
+	margin-left:-15px;
+	height: 590px;
+
+}
+
+.home-thumbs-lg img{
+	height: 518px;
+	width: 380px;
+	background: url('images/diner-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.home-thumbs-lg img:hover{
+	height: 518px;
+	width: 380px;
+	background: url('images/diner-zoom-lg.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.all-home-thumbs {
+	margin:0px auto;
+	width: 400px;
+	padding-left: 7px;
+}
+
+.home-thumbs h4, .home-thumbs2 h4 {
+	font-size: 24px;
+}
+
+.home-thumbs-lg h4 {
+	font-size: 24px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
@@ -749,7 +1396,151 @@ hr {
 	border:solid #000;
 }
 
-    }
+.all-home-thumbs {
+	margin:0px auto;
+	width: 370px;
+	padding-left: 6px;
+
+}
+
+.home-thumbs a img.one:hover{
+	background: url('images/typewriter-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs img.two {
+	height: 238px;
+	width: 350px;
+	background: url('images/coke.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs a img.two:hover{
+	background: url('images/coke-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.three {
+	height: 238px;
+	width: 350px;
+	background: url('images/truck.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.three:hover{
+	background: url('images/truck-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 img.four {
+	height: 238px;
+	width: 350px;
+	background: url('images/bike.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+.home-thumbs2 a img.four:hover{
+	background: url('images/bike-zoom.png') no-repeat center center;
+	margin-bottom: 10px;
+}
+
+.home-thumbs2 {
+	margin-bottom:37px;
+	width:350px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.home-thumbs2 img {
+	margin-bottom: 10px;
+}
+
+.home-thumbs {
+	width:350px;
+	border:solid #fff;
+	border-width: 8px;
+	background-color: #fff;
+}
+
+.h-thumbs-col {
+	padding-left: 2px;
+}
+
+.h-thumbs-col2 {
+	padding-right:3px;
+	
+}
+
+.home-thumbs img.one {
+	height: 238px;
+	width: 350px;
+	background: url('images/typewriter.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+
+
+.home-thumbs-lg {
+	border:solid #fff;
+	border-width: 8px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	height: 550px;;
+	width: 350px;
+
+}
+
+.home-thumbs-lg img{
+	height: 478px;
+	width: 350px;
+	background: url('images/diner-lg2.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+
+.home-thumbs-lg img:hover{
+	height: 478px;
+	width: 350px;
+	background: url('images/diner-zoom-lg2.png') no-repeat center center;
+	margin-bottom: 10px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+
+}
+  
+    
+
+
+
+
+
+}
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {

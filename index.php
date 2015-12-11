@@ -54,7 +54,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 <div class="row concrete">
   <div class="all-home-thumbs">
     
-      <div class="col-xs-12 col-sm-8 home-thumbs-left">
+      <div class="col-xs-12 col-md-8 home-thumbs-left">
         <div class="row">
           <div class="col-xs-12 col-sm-6 h-thumbs-col2">
             <div class= "home-thumbs">
@@ -92,7 +92,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
         </div>
       </div>
 
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-xs-12 col-md-4">
       <div class="home-thumbs-lg">
       <a href="<?php bloginfo('url'); ?>/typography">
           <img class="img-responsive" src="" alt="">
@@ -102,8 +102,8 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
      </div>
   </div>
   
-  </div>
-</div><!-- end of row concrete -->
+  </div><!-- end of row concrete -->
+</div>
 </div>
 <hr>
 
