@@ -23,7 +23,7 @@
           </p>
     		</div>
     		<div class="col-xs-6 logo">
-    			<a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
+    			<a href="<?php bloginfo('url'); ?>/"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
     		</div>
     		<div class="col-xs-3 right-side">
     			<p>Sign Up | Login | Pricing</p>
@@ -31,7 +31,7 @@
   	</div><!-- end hd-nav -->
   </div>
 
-
+<div class="row white">
 <div class="container header-long-search">
   <div class="row">
     
@@ -82,7 +82,7 @@
   </div>
 
 </div>
-
+</div>
  	
 
  	
