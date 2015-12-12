@@ -38,7 +38,7 @@
 .search-images-col {
 	width: 1300px;
 	margin:auto;
-	margin-left: -45px;
+	margin-left: -33px;
 	margin-top: 25px;
 }
 
@@ -47,7 +47,8 @@
 	width: 400px;
 	height: 267px;
 	float: left;
-	padding:30px;
+	padding:20px;
+	padding-top: 23px;
 	border: solid #fff;
 	border-width: 1px;
 	overflow: hidden;
@@ -142,7 +143,7 @@ body {
 
 
 .search-results-headline {
-	color:#000;
+	color:#fff;
 	font-size: 40px;
 	text-align: center;
 }
@@ -1100,6 +1101,17 @@ hr {
 	padding:0px;
 }
 
+.banner2 {
+	background: url('images/concrete-sm.png') no-repeat center center;
+	-webkit-background-size:100%;
+	-moz-background-size:100%;
+	-o-background-size:100%;
+	background-size:100%;
+	background-repeat: repeat-y;
+
+
+}
+
 .all-home-thumbs {
 	margin:0px auto;
 	width: 800px;
@@ -1415,11 +1427,12 @@ hr {
 }
 
 .banner2 {
-	background: url('images/concrete-sm.png') no-repeat center center;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+	background: url('images/concrete-xs.png') no-repeat center center;
+	-webkit-background-size:100%;
+	-moz-background-size:100%;
+	-o-background-size:100%;
+	background-size:100%;
+	background-repeat: repeat-y;
 
 
 }
