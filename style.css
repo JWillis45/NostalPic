@@ -42,6 +42,7 @@
 	margin-top: 25px;
 }
 
+
 .sr-image {
 	overflow: hidden;
 	width: 400px;
@@ -160,8 +161,17 @@ body {
 }
 
 .right-side {
-	text-align: right;
+	text-align: center;
 	padding-right:70px;
+	padding-top: 12px;
+}
+
+.right-side > button {
+	float: left;
+}
+
+.right-side > button > div > button {
+	float: left;
 }
 
 .left-side {
@@ -211,24 +221,30 @@ hr {
 
 }
 
-.dropdown {
+.cat-drop {
 	float: right;
 	width: 50px;
 	display:inline;
-	margin-top: -45px;
+	margin-top: -44px;
 	margin-right: 105px;
 
 }
 
+.dropdown-menu {
+	border:none;
+	border-radius: 0px;
+	color: #fff; 
+}
+
 .dropdown-toggle {
 	border:none;
-	font-size: 20px;
+	font-size: 18px;
 
 }
 
 .dropdown-toggle:hover {
 	border:none;
-	font-size: 20px;
+	font-size: 18px;
 	background:none;
 }
 
@@ -331,15 +347,14 @@ hr {
 
 .banner8 {
 	background: url('images/search-bg.png') no-repeat center center;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	margin:0px;
-	padding:0px;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	background-size:100% 100%;
+
+	
 	height: 1550px;
 	background-repeat: no-repeat;
-	width: 100%;
 
 }
 
@@ -354,6 +369,7 @@ hr {
 	height: 1550px;
 	background-repeat: no-repeat;
 	padding-top: 20px;
+	width: 100%;
 }
 
 .concrete {
@@ -707,16 +723,89 @@ hr {
 	width: 100%;
 }
 
+.right-nav {
+	float:left;
+	font-size: 15px;
+	background: none;
+	border: none;
+}
+
+.right-nav:hover {
+	float:left;
+	font-size: 15px;
+	background: none;
+	border: none;
+	color: #d9b686;
+}
+
+.right-nav:focus {
+	float:left;
+	font-size: 15px;
+	background: none;
+	border: none;
+	color: #d9b686;
+}
+
+.right-nav:active {
+	float:left;
+	font-size: 15px;
+	background: none;
+	border: none;
+	color: #d9b686;
+}
+
+.right-nav-p {
+	float: left;
+	margin-top: -12px;
+}
 
 
+.login-drop {
+	color: #fff;
 
+}
 
+.login-drop > button {
+	background:none;
+	border:none;
+	margin-top: 3px;
+}
 
+.form-inline {
+	margin:0 auto;
+}
+.input-group {
+	width: 450px;
 
+}
 
+.right-nav-lg {
+	float: right;
+}
 
+.gform_button {
+	background: none;
+	border:none;
+	background-image: url('images/signup-button.png');
+	color: transparent;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 43px;
 
+}
 
+.gform_button:hover {
+	background: none;
+	border:none;
+	background-image: url('images/signup-button-hover.png');
+	color: transparent;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 43px;
+
+}
 
 
 
@@ -888,7 +977,7 @@ hr {
 	margin-left: 54px;
 }
 
-} 
+
 
 
 
@@ -1824,5 +1913,13 @@ hr {
 
 .whitey {
 	background-color: white;
+
 }
 /* ANTHONY CODE END */
+
+
+
+.middle-input-padding {
+	margin-bottom: 100px;
+	margin-top: 100px;
+} 

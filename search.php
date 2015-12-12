@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="banner9">
-<div class="col-xs-1"></div>
-<div class="col-xs-10 banner8 ">
-	<div class="container">
+
+<div class="banner8 ">
+	<div class="container sr-bg">
 		<div class="row">
 
 		<h1 class = "search-results-headline">Search Results For: <?php the_search_query();?></h1>
@@ -39,7 +39,7 @@
 </div>
 
 </div>
-<div class="col-xs-1"></div>
+
 </div>
 
 
