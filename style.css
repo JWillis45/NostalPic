@@ -4,6 +4,24 @@
   Author: Joe, Anthony, Irvin
 */
 
+.left-menu {
+	width:50px;
+	height: 50px;
+	background-color: #000;
+	border:none;
+	color: #fff;
+	font-size: 30px;
+}
+.right-menu {
+	width:50px;
+	height: 50px;
+	float: right;
+	background-color: #000;
+	border:none;
+	color: #fff;
+	font-size: 30px;
+}
+
 .search-images {
 	width:20%;
 	float: left;
@@ -11,14 +29,10 @@
 }
 
 .search-images img {
-	width: 270px;
-	height: 270px;
+	width:100%;
 	float: left;
 	display: inline;
-	margin-left: 30px;
-	margin-bottom: 30px;
-	border:solid #fff;
-	border-width:1px;
+	overflow: hidden;
 }
 
 .search-images-col {
@@ -28,8 +42,21 @@
 	margin-top: 25px;
 }
 
-
-h1, h2, h3, h4, p, ul {
+.sr-image {
+	overflow: hidden;
+	width: 400px;
+	height: 267px;
+	float: left;
+	padding:30px;
+	border: solid #fff;
+	border-width: 1px;
+	overflow: hidden;
+}
+.sr2 {
+	overflow: hidden;
+	height: 220px;
+}
+body {
 	font-family: 'Slabo 13px', serif;
 }
 
@@ -93,6 +120,8 @@ h1, h2, h3, h4, p, ul {
 
 .white {
 	background-color: #fff;
+	width:100%;
+	margin: 0px auto;
 }
 
 
@@ -309,6 +338,7 @@ hr {
 	padding:0px;
 	height: 1550px;
 	background-repeat: no-repeat;
+	width: 100%;
 
 }
 

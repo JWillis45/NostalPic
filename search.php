@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div class="banner9">
-<div class="banner8">
+<div class="col-xs-1"></div>
+<div class="col-xs-10 banner8 ">
 	<div class="container">
 		<div class="row">
 
@@ -16,10 +17,13 @@
 		  if (have_posts()) : while (have_posts()) : the_post(); 
 		?>
 				
-				  	<a href="<?php the_permalink(); ?>">
-				      <img class="img-responsive" src="<?php the_field('image');?>" alt="">
-				    </a>
-				  
+				<div class="sr-image">
+					<div class="sr2">
+					  	<a href="<?php the_permalink(); ?>">
+					      <img class="img-responsive" src="<?php the_field('image');?>" alt="">
+					    </a>
+				    </div>
+				 </div>
 			  	
 		  
 		
@@ -35,6 +39,7 @@
 </div>
 
 </div>
+<div class="col-xs-1"></div>
 </div>
 
 

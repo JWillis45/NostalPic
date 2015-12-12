@@ -17,16 +17,38 @@
 
   <div class="container-fluid">
       <div class="row hd-nav">
-    		<div class="col-xs-3 left-side">
-    			<p> <a href="<?php bloginfo('url'); ?>/photos">Photos</a> |
+    		<div class="col-xs-4 left-side">
+            <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs left-menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+    		  <p class="hidden-sm hidden-xs"> <a href="<?php bloginfo('url'); ?>/photos">Photos</a> |
               <a href="<?php bloginfo('url'); ?>/illustrations">Illustrations</a>
           </p>
     		</div>
-    		<div class="col-xs-6 logo">
-    			<a href="<?php bloginfo('url'); ?>/"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
-    		</div>
-    		<div class="col-xs-3 right-side">
-    			<p>Sign Up | Login | Pricing</p>
+    		<div class="col-xs-4 logo">
+    			<a href="<?php bloginfo('url'); ?>/"><img class="img-responsive hidden-xs" src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
+    		  <a href="<?php bloginfo('url'); ?>/"><img class="visible-xs" src="<?php bloginfo('template_directory'); ?>/images/logo-xs.png"/></a>
+
+        </div>
+    		<div class="col-xs-4 right-side">
+            <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs right-menu" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+    		  <p class="hidden-sm hidden-xs">Sign Up | Login | Pricing</p>
     		</div>
   	</div><!-- end hd-nav -->
   </div>
