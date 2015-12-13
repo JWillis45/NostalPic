@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 	 <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'> 
@@ -97,8 +97,8 @@
 </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Sign Up</button>
+        <button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary signup-button">Sign Up</button>
       </div>
     </div>
   </div>

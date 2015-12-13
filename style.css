@@ -789,9 +789,72 @@ hr {
 .form-inline {
 	margin:0 auto;
 }
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-header h4 {
+	color: #fff;
+	font-size: 28px;
+	padding-top: 20px;
+}
+.modal-footer {
+	border-top: none;
+	margin-bottom: 15px;
+}
+
+.modal-content {
+	background-color: #cda37d;
+
+}
 .input-group {
 	width: 450px;
+	margin-bottom: 20px;
+	border:solid #000;
+	border-width: 1px;
+	border-radius: 5px;
+}
 
+
+.signup-button {
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	margin-right:60px;
+
+}
+
+.signup-button:hover {
+	background-color: #ccc;
+	color: #000;
+	border-color: #000;
+}
+
+.signup-button:active {
+	background-color: green;
+	color: #000;
+	border-color: #000;
+}
+
+.signup-button:focus {
+	background-color: green;
+	color: #000;
+	border-color: #000;
+}
+
+.close-button {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+
+
+}
+
+.close-button:hover {
+	background-color: #575757;
+	color: #fff;
+	border-color: #000;
 }
 
 .right-nav-lg {
@@ -1728,15 +1791,24 @@ hr {
   
     
 
-
-
-
-
 }
 /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
         
     }
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
     /* ANTHONY CODE START */
@@ -1929,7 +2001,7 @@ hr {
 	.noLgMargin {
 		margin-left: 0px;
 	}
-}
+
 
 .whitey {
 	background-color: white;

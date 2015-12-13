@@ -49,7 +49,8 @@
     </div>
     <div id="<?php echo $accord; $accord++; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-      	This image is ready in standard definition and 4k resolution. 
+      	
+      	<?php the_title();?> 
       </div>
     </div>
   </div>
