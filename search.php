@@ -14,7 +14,7 @@
 					<div class="panel-group testing" id="accordion" role="tablist" aria-multiselectable="true">
 				  	<div class="panel panel-default">
 				  		<div class="panel-heading" role="tab" id="headingOne">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $accord; ?>" aria-expanded="true" aria-controls="collapseOne">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#<?php echo "thumbnail".$accord; ?>" aria-expanded="true" aria-controls="collapseOne">
 				          Collapsible Group Item #1
 				    			<div class="sr-image">
 										<div class="sr2">

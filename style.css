@@ -163,7 +163,7 @@ body {
 	background-size: 60%;
 	background-position: 10px 5px;
 	margin-left: -1150px;
-	
+
 }
 
 
@@ -219,11 +219,11 @@ body {
 
 .logo img{
 	margin:0px auto;
-	
+
 }
 
 .hd-image {
-	
+
 	height: 476px;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -258,7 +258,7 @@ hr {
 .dropdown-menu {
 	border:none;
 	border-radius: 0px;
-	color: #fff; 
+	color: #fff;
 }
 
 
@@ -283,19 +283,19 @@ hr {
 	background: none;
 }
 
-.box-1 { 
+.box-1 {
 	float:left;
  	clear:left;
  	width: 300px;
  	height: 300px;
- 	margin-left: 80px; 
+ 	margin-left: 80px;
 }
 
-.box { 
+.box {
 	float:left;
 	width: 300px;
 	height: 300px;
-	margin-left: 3%; 
+	margin-left: 3%;
 }
 
 .box-1 img {
@@ -369,7 +369,7 @@ hr {
 	margin:0px;
 	padding:0px;
 	height: 70px;
-	
+
 }
 
 .banner8 {
@@ -379,7 +379,7 @@ hr {
 	-o-background-size:100% 100%;
 	background-size:100% 100%;
 
-	
+
 	height: 1550px;
 	background-repeat: no-repeat;
 
@@ -400,13 +400,13 @@ hr {
 }
 
 .concrete {
-	
+
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding: 95px 0px;
 	padding-bottom: 80px;
 	margin-bottom: 20px;
-	
+
 }
 
 .home-thumbs {
@@ -422,7 +422,7 @@ hr {
 
 .h-thumbs-col2 {
 	padding-right:3px;
-	
+
 }
 
 .home-thumbs img.one {
@@ -516,7 +516,7 @@ hr {
 	border:solid #fff;
 	border-width: 8px;
 	padding-bottom: 40px;
-	background-color: #fff;	
+	background-color: #fff;
 	width: 460px;
 	margin-left:-26px;
 	height: 627px;
@@ -557,7 +557,7 @@ hr {
 	background-color: blue;
 }
 .home-categories {
-	
+
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding-top: 60px;
@@ -606,7 +606,7 @@ hr {
 
 .TEMP {
 
-	
+
 }
 
 .home-signup {
@@ -625,15 +625,15 @@ hr {
 }
 
 .signup-form-email {
-	
+
 }
 
 .signup-form-password {
-	
+
 }
 
 .ginput_container_text {
-		
+
 
 }
 
@@ -680,14 +680,14 @@ hr {
 	content: " | ";
 	color:#fff;
 	margin-left: 10px;
-	
+
 }
 
 .menu-item-8687 a:after {
 	content: " | ";
 	color:#fff;
 	margin-left: 10px;
-	
+
 }
 
 #menu-menu-2 li a {
@@ -794,7 +794,7 @@ hr {
 	box-shadow: none;
 	right:0;
 	margin-left: auto
-	
+
 }
 
 .login-email > .ginput_container_email {
@@ -1011,7 +1011,7 @@ hr {
 
 /*==========  Non-Mobile First Method  ==========*/
 
-	
+
 	/* Extra breakpoint for home-thumbs responsiveness */
 
 @media only screen and (max-width : 1300px) {
@@ -1044,7 +1044,7 @@ hr {
 
 .h-thumbs-col2 {
 	padding-right:3px;
-	
+
 }
 
 .home-thumbs img.one {
@@ -1128,13 +1128,13 @@ hr {
 
 .h-thumbs-col2 {
 	margin-right:-10px;
-	
+
 }
 .home-thumbs-lg {
 	border:solid #fff;
 	border-width: 8px;
 	padding-bottom: 40px;
-	background-color: #fff;	
+	background-color: #fff;
 	width: 402px;
 	margin-left:-47px;
 	height: 552px;
@@ -1178,7 +1178,7 @@ hr {
 
 
 
-   
+
 
 
 
@@ -1226,7 +1226,7 @@ hr {
 
 .h-thumbs-col2 {
 	padding-right:3px;
-	
+
 }
 
 .home-thumbs img.one {
@@ -1310,13 +1310,13 @@ hr {
 
 .h-thumbs-col2 {
 	margin-right:-10px;
-	
+
 }
 .home-thumbs-lg {
 	border:solid #fff;
 	border-width: 8px;
 	padding-bottom: 40px;
-	background-color: #fff;	
+	background-color: #fff;
 	width: 350px;
 	margin-left:-45px;
 	height: 482px;
@@ -1367,7 +1367,7 @@ hr {
 
 
 
-    
+
 
 
 
@@ -1527,7 +1527,7 @@ hr {
 
 .h-thumbs-col2 {
 	padding-right:3px;
-	
+
 }
 
 .home-thumbs img.one {
@@ -1547,7 +1547,7 @@ hr {
 	border:solid #fff;
 	border-width: 8px;
 	padding-bottom: 40px;
-	background-color: #fff;	
+	background-color: #fff;
 	width: 460px;
 	margin-left:135px;
 	height: 627px;
@@ -1577,13 +1577,13 @@ hr {
 	transition: .4s ease-in-out;
 
 }
-   
+
 
 }
 
 }
 
-    
+
 
 
 
@@ -1650,7 +1650,7 @@ hr {
 	width: 400px;
 	margin:0px auto;
 	margin-left: -6px;
-	
+
 }
 
 .banner {
@@ -1752,14 +1752,14 @@ hr {
 }
 
 .h-thumbs-col2 {
-	padding:0px;	
+	padding:0px;
 }
 
 .home-thumbs-lg {
 	border:solid #fff;
 	border-width: 8px;
 	padding-bottom: 40px;
-	background-color: #fff;	
+	background-color: #fff;
 	width: 380px;
 	margin-left:-15px;
 	height: 590px;
@@ -1840,7 +1840,7 @@ hr {
 
 
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
 
 .hd-search #searchsubmit {
@@ -1873,7 +1873,7 @@ hr {
 	width: 400px;
 	margin:0px auto;
 	margin-left: -140px;
-	
+
 }
 
 .banner {
@@ -1975,7 +1975,7 @@ hr {
 
 .h-thumbs-col2 {
 	padding-right:3px;
-	
+
 }
 
 .home-thumbs img.one {
@@ -2024,17 +2024,17 @@ hr {
 	transition: .4s ease-in-out;
 
 }
-  
-    
+
+
 
 }
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-        
+
     }
 
 
-    
+
 
 
 
@@ -2251,7 +2251,7 @@ hr {
 	padding:0px;
 	width: 450px;
 	height: 56px;
-} 
+}
 
 .modal-user {
 	height: 14px;
@@ -2269,4 +2269,3 @@ hr {
 	background:none;
 	background: red;
 }
-
