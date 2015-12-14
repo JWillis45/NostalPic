@@ -112,8 +112,8 @@
   <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Login
   </button>
-  <ul class="dropdown-menu" aria-labelledby="dLabel">
-   <!--  <?php the_field('signup_form', 'options'); ?> -->
+  <ul class="dropdown-menu login-drop" aria-labelledby="dLabel">
+  <?php the_field('login_form', 'options'); ?>
   </ul>
 </div>
 

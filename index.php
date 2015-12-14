@@ -115,7 +115,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   </div>
   
   
-  <div class="col-xs-3 cat-lists">
+  <div class="col-xs-12 col-sm-6 col-md-3 col- cat-lists">
     <ul>
       <a href="<?php bloginfo('url'); ?>/animals"><li>Animals</li></a>
       <a href="<?php bloginfo('url'); ?>/people-2"><li>People</li></a>
@@ -124,7 +124,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
       <a href="<?php bloginfo('url'); ?>/music"><li>Music</li></a>
     </ul> 
   </div>
-  <div class="col-xs-3 cat-lists">
+  <div class="col-xs-12 col-sm-6 col-md-3 cat-lists">
     <ul>
       <a href="<?php bloginfo('url'); ?>/people"><li>Landmarks</li></a>
       <a href="<?php bloginfo('url'); ?>/accessories"><li>Accessories</li></a>
@@ -133,7 +133,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
       <a href="<?php bloginfo('url'); ?>/toys"><li>Toys</li></a>
     </ul>
   </div>
-  <div class="col-xs-3 cat-lists">
+  <div class="col-xs-12 col-sm-6 col-md-3 cat-lists">
     <ul> 
       <a href="<?php bloginfo('url'); ?>/stationery"><li>Stationery</li></a>
       <a href="<?php bloginfo('url'); ?>/communications"><li>Communications</li></a>
@@ -142,7 +142,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
       <a href="<?php bloginfo('url'); ?>/nature"><li>Nature</li></a>
     </ul> 
   </div>
-  <div class="col-xs-3 cat-lists">
+  <div class="col-xs-12 col-sm-6 col-md-3 cat-lists">
     <ul>
       <a href="<?php bloginfo('url'); ?>/business"><li>Business</li></a>
       <a href="<?php bloginfo('url'); ?>/typography"><li>Typography</li></a>

@@ -4,21 +4,29 @@
   Author: Joe, Anthony, Irvin
 */
 
-.left-menu {
-	width:50px;
-	height: 50px;
-	background-color: #000;
+
+.right-menu {
+	background:none;
 	border:none;
 	color: #fff;
 	font-size: 30px;
+	margin-left: 70%;
+	margin-top: -8px;
 }
-.right-menu {
-	width:50px;
-	height: 50px;
-	float: right;
-	background-color: #000;
+
+.left-menu {
+	background:none;
 	border:none;
 	color: #fff;
+	font-size: 30px;
+	float: left;
+}
+
+.glyphicon-user {
+	font-size: 30px;
+}
+
+.glyphicon-align-justify {
 	font-size: 30px;
 }
 
@@ -79,6 +87,7 @@ body {
 .cat-lists li {
 		border-radius: 5px;
 		list-style-type:none;
+		text-align: left;
 }
 
 .main-display {
@@ -251,6 +260,8 @@ hr {
 	border-radius: 0px;
 	color: #fff; 
 }
+
+
 
 .dropdown-toggle {
 	border:none;
@@ -779,7 +790,19 @@ hr {
 .login-drop {
 	color: #fff;
 	padding:0px 5px;
+	background: none;
+	box-shadow: none;
+	right:0;
+	margin-left: auto
+	
+}
 
+.login-email > .ginput_container_email {
+	width:400px;
+}
+
+.login-password > .ginput_container_text {
+	width:400px;
 }
 
 .login-drop > button {
@@ -808,6 +831,7 @@ hr {
 
 .modal-content {
 	background-color: #5f5e5e;
+	margin-top:150px;
 
 }
 
@@ -922,6 +946,37 @@ hr {
 	width: 100px;
 	height: 43px;
 
+}
+.login-form {
+	width:250px;
+	background-color: #000;
+	padding-left: 30px;
+	color: #000;
+	padding-bottom: 20px;
+}
+
+.login-form > .top_label > .gform_button {
+	background-color: #fff;
+	border: solid #000 1px;
+	border-radius: 5px;
+	background-image:none;
+	color: #000;
+	width: 70px;
+	height: 30px;
+	padding-top: 4px;
+	margin:0px auto;
+}
+
+.login-form > .top_label > .gform_button:hover {
+	background-color: #ccc;
+	border: solid #000 1px;
+	border-radius: 5px;
+	background-image:none;
+	color: #000;
+	width: 70px;
+	height: 30px;
+	padding-top: 4px;
+	margin:0px auto;
 }
 
 .gform_button:hover {
@@ -1139,6 +1194,14 @@ hr {
 	border:solid #000;
 }
 
+.cat-lists ul {
+	border-radius: 5px;
+	list-style-type:none;
+	width: 240px;
+	margin:0px auto;
+	margin-left: -30px;
+}
+
 .home-thumbs {
 	width:240px;
 	border:solid #fff;
@@ -1309,6 +1372,19 @@ hr {
 	border:solid #000;
 }
 
+.cat-lists ul {
+	border-radius: 5px;
+	list-style-type:none;
+	margin:0px auto;
+	margin-left: 10px;
+
+}
+
+.cat-lists li {
+	font-size: 25px;
+
+}
+
 .banner {
 	background: url('images/header-image2.png') no-repeat center center;
 	-webkit-background-size:cover;
@@ -1471,6 +1547,8 @@ hr {
 
 }
 
+}
+
     
 
 
@@ -1491,6 +1569,30 @@ hr {
 	padding:5px 14px;
 	vertical-align: top;
 	border:solid #000;
+}
+
+.categories-title h1 {
+	font-size: 45px;
+}
+
+.cat-lists ul {
+	border-radius: 5px;
+	list-style-type:none;
+	margin:0px auto;
+	width:500px;
+
+}
+.cat-lists {
+	margin:0px auto;
+}
+
+.cat-lists li {
+	font-size: 29px;
+	text-align: center;
+	width: 400px;
+	margin:0px auto;
+	margin-left: -6px;
+	
 }
 
 .banner {
@@ -1689,6 +1791,30 @@ hr {
 	padding:5px 14px;
 	vertical-align: top;
 	border:solid #000;
+}
+
+.categories-title h1 {
+	font-size: 35px;
+}
+
+.cat-lists ul {
+	border-radius: 5px;
+	list-style-type:none;
+	margin:0px auto;
+	width:200px;
+
+}
+.cat-lists {
+	margin:0px auto;
+}
+
+.cat-lists li {
+	font-size: 22px;
+	text-align: center;
+	width: 400px;
+	margin:0px auto;
+	margin-left: -140px;
+	
 }
 
 .banner {
