@@ -24,7 +24,7 @@
 								</a>
 				      	<h4 class="panel-title"></h4>
 				    	</div>
-					    <div id="<?php echo $accord; $accord++; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					    <div id="<?php echo "thumbnail".$accord; $accord++; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 					      <div class="panel-body">
 					      	<?php the_title();?>
 					      </div>
