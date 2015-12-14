@@ -19,6 +19,9 @@
 
   <div class="container-fluid">
       <div class="row hd-nav">
+
+<!-- Leftside Navigation Collapsed -->
+
     		<div class="col-xs-4 left-side">
             <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs left-menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
@@ -27,27 +30,36 @@
               <li><a href="people-2">Photos</a></li>
               <li><a href="illustrations">Illustrations</a></li>
             </ul>
+<!-- End of Leftside Navigation Collapsed -->
+       
+<!-- Leftside Navigation Full -->
+   
     		  <p class="hidden-sm hidden-xs"> <a href="<?php bloginfo('url'); ?>/photos">Photos</a> |
               <a href="<?php bloginfo('url'); ?>/illustrations">Illustrations</a>
           </p>
     		</div>
-    		<div class="col-xs-4 logo">
+<!-- End of Leftside Navigation Full -->
+
+    		
+        <div class="col-xs-4 logo">
     			<a href="<?php bloginfo('url'); ?>/"><img class="img-responsive hidden-xs" src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
     		  <a href="<?php bloginfo('url'); ?>/"><img class="visible-xs" src="<?php bloginfo('template_directory'); ?>/images/logo-xs.png"/></a>
 
         </div>
     		
-
+        
+<!-- User Navigation Collapsed -->
         <div class="col-xs-4 right-side">
             <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs right-menu" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-user collapse-user" aria-hidden="true"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
               <li><a href="#">Signup</a></li>
               <li><a href="#">Login</a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
-    		
+<!-- End User Navigation Collapsed -->
+		
           
 
 <div class="right-nav-lg hidden-sm hidden-xs">
