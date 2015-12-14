@@ -196,6 +196,7 @@ body {
 
 .left-side a {
 	text-align: left;
+	padding:0px 5px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -777,6 +778,7 @@ hr {
 
 .login-drop {
 	color: #fff;
+	padding:0px 5px;
 
 }
 
@@ -805,9 +807,32 @@ hr {
 }
 
 .modal-content {
-	background-color: #cda37d;
+	background-color: #5f5e5e;
 
 }
+
+.price-box1	{
+	width: 230px;
+	height: 230px;
+	border:solid #000;
+	background-color: #fff;
+	color: #000;
+	margin:auto;
+}
+
+.price-box2	{
+	width: 230px;
+	height: 230px;
+	border:solid #000;
+	background-color: #fff;
+	color: #000;
+	margin:auto;
+}
+
+.price-box1 p, .price-box2 p{
+	color: #000;
+}
+
 .input-group {
 	width: 450px;
 	margin-bottom: 20px;
@@ -832,13 +857,13 @@ hr {
 }
 
 .signup-button:active {
-	background-color: green;
+	background-color: #d9b686;
 	color: #000;
 	border-color: #000;
 }
 
 .signup-button:focus {
-	background-color: green;
+	background-color: #d9b686;
 	color: #000;
 	border-color: #000;
 }
@@ -854,6 +879,32 @@ hr {
 .close-button:hover {
 	background-color: #575757;
 	color: #fff;
+	border-color: #000;
+}
+
+.select-plan-button {
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	margin-right:22px;
+
+}
+
+.select-plan-button:hover {
+	background-color: #ccc;
+	color: #000;
+	border-color: #000;
+}
+
+.select-plan-button:active {
+	background-color: #d9b686;
+	color: #000;
+	border-color: #000;
+}
+
+.select-plan-button:focus {
+	background-color: #d9b686;
+	color: #000;
 	border-color: #000;
 }
 

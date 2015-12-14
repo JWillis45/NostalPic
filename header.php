@@ -50,12 +50,14 @@
     		
           
 
-<div class="right-nav-lg">
+<div class="right-nav-lg hidden-sm hidden-xs">
 
           <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#signup">
   Signup
 </button>
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -122,20 +124,52 @@
   Pricing
 </button>
 
+
+
 <!-- Modal -->
 <div class="modal fade" id="pricing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Pricing</h4>
+        <h4 class="modal-title" id="myModalLabel">Two Easy Options</h4>
       </div>
       <div class="modal-body">
-        ...
+        <div class="row">
+          <div class="col-xs-6">
+              <div class="price-box1">
+                <h3>Essentials</h3>
+                  <h2>$10/mo.</h2> 
+                  <p>
+                    500 Downloads
+                    <br>
+                    SD/HD Images
+                    <br>
+                    24/7 Customer Support
+                  </p>  
+
+              </div>
+            
+          </div>
+          <div class="col-xs-6">
+              <div class="price-box2">
+               <h3>Signature Plan</h3>
+                  <h2>$15/mo.</h2>
+                  <p>
+                    Unlimited Downloads
+                    <br>
+                    SD/HD Images
+                    <br>
+                    24/7 Customer Support
+                  </p>   
+              </div>
+          </div>
+
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <a href="#"><button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button></a>
+        <a href="#"><button type="button" class="btn btn-primary select-plan-button">Select a Plan</button></a>
       </div>
     </div>
   </div>
