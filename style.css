@@ -2275,7 +2275,7 @@ hr {
 	background-color: #ccc;
 	color:white;
 	background: url(images/contactUsInfo.png);
-	
+
 }
 .contactUsInfo2{
 	width:416px;
@@ -2319,7 +2319,7 @@ hr {
 	height:512px;
 	color:black;
 	background: url(images/contactUsFormSmall.png) ;
-	
+
 }
 
 .info3{
@@ -2333,7 +2333,7 @@ hr {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 519px) {
-	
+
 	.contactUsForm {
 	width:519px;
 	height:629px;
@@ -2348,7 +2348,62 @@ hr {
 }
 
 }
-
-
-
 /*Irvin Code End*/
+
+/* Permalink Page Start */
+/* Helper Classes start */
+.padTop {
+	padding: 70px 0 0 0 !important;
+}
+
+.margBtm {
+	margin-bottom: 20px;
+}
+/* Helper Classes end */
+
+.options_wrapper {
+	/*border: 1px solid black;*/
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+
+.sm_check, .md_check {
+	width:70px;
+	height: 70px;
+	padding:22px 22px 22px 27px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.sm_check:hover, .md_check:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.sm_check:focus, .md_check:focus {
+	background-color: #595959;
+	color:white;
+}
+
+.sm_check strong, .md_check strong {
+	font-size: 25px;
+}
+
+.md_check {
+	padding:22px 22px 22px 25px;
+}
+
+.similarOne {
+	border: 1px solid black;
+	width:200px;
+	height:100px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+
+/* Permalink Page End */
