@@ -27,7 +27,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 	<?php query_posts('category_name'.get_the_title().'&post_status=publish,future'); ?>
 
-	
+
 				<div class="sr-image">
 					<div class="sr2">
 					  	<a href="<?php the_permalink(); ?>">
@@ -79,5 +79,5 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 
 
-
+</div>
 <?php get_footer(); ?>

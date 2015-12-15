@@ -176,7 +176,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   <div class="row home-bottom">
     <div class="col-xs-5 app">
       <h2>Access NostalPic Instantly!</h2>
-      <h4>Access the Nostalpic page instantly using the Nostalpic phone app, available on the android market atnd the iPhone</h4>
+      <h4>Access the Nostalpic page instantly using the Nostalpic phone app, available on the android market and the iPhone</h4>
     </div>
     <div class="col-xs-7"></div>
   </div>
