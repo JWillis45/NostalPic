@@ -70,13 +70,14 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 
 </div>
+
  
  <a href="<?php the_permalink(); ?>"><img class="img-responsive" src="<?php the_field('image');?>" alt="">
 	<div class="col-sm-12"><?= $title; ?></div>
  </a>
 <?php endwhile; else: endif; ?>
 
-
+</div>
 
 
 

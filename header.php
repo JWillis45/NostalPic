@@ -43,7 +43,7 @@
     		
         <div class="col-xs-4 logo">
     			<a href="<?php bloginfo('url'); ?>/"><img class="img-responsive hidden-xs" src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a>
-    		  <a href="<?php bloginfo('url'); ?>/"><img class="visible-xs" src="<?php bloginfo('template_directory'); ?>/images/logo-xs.png"/></a>
+    		  <a href="<?php bloginfo('url'); ?>/"><img class="visible-xs small-logo" src="<?php bloginfo('template_directory'); ?>/images/logo-xs.png"/></a>
 
         </div>
     		
