@@ -8,7 +8,7 @@ Template Name: Categories Page
 	<div class="banner8 ">
 		<div class="container sr-bg">
 			<div class="row">
-				<h1 class = "search-results-headline">Search Results For: <?php the_search_query();?></h1>
+				<h1 class = "search-results-headline"><?php wp_title(''); ?></h1>
 			</div>
 			<div class="row search-images">
 			<div class="col-xs-12 search-images-col">
