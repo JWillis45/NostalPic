@@ -22,7 +22,7 @@
 				<br>
 
 				<div class="margBtm">
-					<a href="#" class="btn btn-primary">Download</a>
+					<a href="<?php echo the_field('image');?>" download="<?php the_field('image');?>" class="btn btn-primary">Download</a>
 				</div>
 				<p>
 					Categories:
