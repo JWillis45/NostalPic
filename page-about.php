@@ -72,10 +72,10 @@ Template Name: About Page
           <!-- Bio -->
           <div class="col-lg-5 noLgMargin col-md-6 col-sm-10 col-sm-offset-2 col-xs-12">
             <div class="bio bababa">
-              <h2>Irvin Castillo</h2>
-              <small><em>Web Designer</em></small>
+              <h2>Joe Willis</h2>
+              <small><em>Developer</em></small>
               <p>
-                Irvin Castillo (Creator of award winning App Pick Me) is a Multi-Media production student. He has made such impacts on the internet like Mixer Grounds, and has partnered up with Anthony Gaona to make the epic game Williamson. The 24 year old senior dreams of one day working for the multi-million dollar company brazzers.
+                Joe Willis graduated from Cal State University, Northridge in 2020. He studed Graphic and Web Design under the apprentiship of Trevor Greenleaf.
               </p>
             </div> <!-- end bio -->
           </div> <!-- end column -->
@@ -95,10 +95,10 @@ Template Name: About Page
           <!-- Bio -->
           <div class="col-lg-5 noLgMargin col-md-6 col-sm-10 col-sm-offset-2 col-xs-12">
             <div class="bio bababa">
-              <h2>Irvin Castillo</h2>
-              <small><em>Web Designer</em></small>
+              <h2>Anthony Gaona</h2>
+              <small><em>Developer</em></small>
               <p>
-                Irvin Castillo (Creator of award winning App Pick Me) is a Multi-Media production student. He has made such impacts on the internet like Mixer Grounds, and has partnered up with Anthony Gaona to make the epic game Williamson. The 24 year old senior dreams of one day working for the multi-million dollar company brazzers.
+                Anthony Gaona is a orange salesman on the 405 who occasionaly does HTML and CSS in order to pay for college. He enjoys long walks on the beach and long island ice teas.
               </p>
             </div> <!-- end bio -->
           </div> <!-- end column -->
