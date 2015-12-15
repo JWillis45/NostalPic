@@ -1815,6 +1815,11 @@ hr {
 
 }
 
+.small-logo {
+	width: 180px;
+	padding-top: 10px;
+	padding-right: 5px;
+}
 
 
 
@@ -2025,9 +2030,27 @@ hr {
 
 }
 
+.small-logo {
+	width: 170px;
+}
 
+.logo {
+	margin-left: -30px;
+}
+.left-side {
+	padding-left: 2%;
+}
+
+.right-side {
+	padding-right: 2%;
+}
 
 }
+
+
+
+
+
 /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
 
@@ -2248,9 +2271,7 @@ hr {
 
 /* ANTHONY CODE END */
 
-.top_label {
-	margin:auto;
-}
+
 /*irvins edits*/
 
 .contactUsBackground {
