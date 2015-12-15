@@ -1,10 +1,14 @@
 <?php get_header(); ?>
 <div class="banner9">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
+=======
+<?php $accord = 0; ?>
+>>>>>>> parent of 4b61243... changed search results page back to single column
 <div class="banner8 ">
 	<div class="container sr-bg">
 		<div class="row">
@@ -15,47 +19,77 @@
 
 		
 		<div class="row search-images">
-		<div class="col-xs-12 search-images-col">
 		
 
 			
 		
 			<?php 
 		  if (have_posts()) : while (have_posts()) : the_post(); 
-		?>
-		
+		?>	
 				
-				<div class="sr-image">
-					<div class="sr2">
-					  	<a href="<?php the_permalink(); ?>">
-					      <img class="img-responsive" src="<?php the_field('image');?>" alt="">
-					    </a>
-				    </div>
-				 </div>
 			  	
-		  
 
 
+<div class="col-xs-4">
+
+		  <div class="panel-group testing" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+		
+		
+		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $accord; ?>" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+       
+
+    <div class="sr-image">
+				<div class="sr2">
+				  	
+				  	<img class="img-responsive" src="<?php the_field('image');?>" alt="">
+				    
+			    </div>
+			 </div>
+		</a>
+
+
+      <h4 class="panel-title">
+        
+      </h4>
+    </div>
+    <div id="<?php echo $accord; $accord++; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+      	
+      	<?php the_title();?> 
+      </div>
+    </div>
+  </div>
+  
+</div>
 
 
 		
 		 
 		  
-		  
-	
+		  </div>
 
 		
 		  <?php endwhile; else: ?>
 		    <p>Sorry, no posts matched your criteria.</p>
 		<?php endif; wp_reset_postdata();?>
-		</div>
 		
 	</div>
 </div>
+
 </div>
+
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <?php get_footer(); ?>
 =======
 <?php get_footer(); ?>
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
+=======
+
+
+<?php get_footer(); ?>
+>>>>>>> parent of 4b61243... changed search results page back to single column

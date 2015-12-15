@@ -1177,7 +1177,12 @@ hr {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+
+>>>>>>> parent of 4b61243... changed search results page back to single column
    
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
 
@@ -2249,6 +2254,7 @@ hr {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -2271,6 +2277,9 @@ hr {
 }
 =======
 /*.middle-input-padding {
+=======
+.middle-input-padding {
+>>>>>>> parent of 4b61243... changed search results page back to single column
 	padding:0px;
 	width: 450px;
 	height: 56px;
@@ -2323,6 +2332,7 @@ hr {
 @media only screen and (min-width : 320px) {
 
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width : 518px) {
 .contactUsForm {
@@ -2344,6 +2354,8 @@ hr {
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
 
 }
+=======
+>>>>>>> parent of 4b61243... changed search results page back to single column
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 519px) {
