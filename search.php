@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 <div class="banner9">
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
 <div class="banner8 ">
 	<div class="container sr-bg">
 		<div class="row">
@@ -49,4 +54,8 @@
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 <?php get_footer(); ?>
+=======
+<?php get_footer(); ?>
+>>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
