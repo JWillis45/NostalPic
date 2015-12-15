@@ -1176,8 +1176,6 @@ hr {
 
 
 
-
-
    
 
 
@@ -2247,7 +2245,7 @@ hr {
 
 
 
-.middle-input-padding {
+/*.middle-input-padding {
 	padding:0px;
 	width: 450px;
 	height: 56px;
@@ -2269,4 +2267,6 @@ hr {
 	background:none;
 	background: red;
 }
+*/
+
 

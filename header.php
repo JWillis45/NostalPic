@@ -47,14 +47,14 @@
 
         </div>
     		
-        
+
 <!-- User Navigation Collapsed -->
         <div class="col-xs-4 right-side">
             <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs right-menu" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <span class="glyphicon glyphicon-user collapse-user" aria-hidden="true"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
-              <li><a href="#">Signup</a></li>
+              <li><a href="#">Sign Up</a></li>
               <li><a href="#">Login</a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
@@ -64,9 +64,9 @@
 
 <div class="right-nav-lg hidden-sm hidden-xs">
 
-          <!-- Button trigger modal -->
+          <!-- Button trigger modal for Sign Up -->
 <button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#signup">
-  Signup
+  Sign Up
 </button>
 
 
@@ -131,7 +131,10 @@
 
 <p class="right-nav-p">|</p>
 
-<!-- Button trigger modal -->
+
+
+
+<!-- Button trigger modal for Pricing-->
 <button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#pricing">
   Pricing
 </button>
