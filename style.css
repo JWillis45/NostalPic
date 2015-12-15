@@ -2251,30 +2251,109 @@ hr {
 
 
 
-/*.middle-input-padding {
-	padding:0px;
-	width: 450px;
-	height: 56px;
+
+
+
+
+
+
+
+/*irvins edits*/
+
+.contactUsBackground {
+	width:100%;
+	height:100%;
+	color:white;
+	background: url(images/contactUsBackground.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Slabo 13px';
 }
 
-.modal-user {
-	height: 14px;
-	width:14px;
+
+
+.contactUsInfo{
+		width:423px;
+	height:368px;
+	background-color: #ccc;
+	color:white;
+	background: url(images/contactUsInfo.png);
+	
 }
-.testing {
-	background-color: red;
+.contactUsInfo2{
+	width:416px;
+	height:313px;
+	background-color: #ccc;
+	color:white;
+	background: url(images/contactUsInfo21.png);
+	top:0px;
 }
 
-.panel {
-	background: none;
+.info1{
+	top:160px;
+	left: -15px;
+	width:350px;
+	height:170px;
 }
 
-.panel-default>.panel-heading {
-	background:none;
-	background: red;
+.info2{
+	left:-35px;
+	top:110px;
+	width:395px;
+	height:170px;
 }
+.info3{
+	top:50px;
+	width:400px;
+	height:609px;
+}
+.fifty{
+	top:50px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (max-width : 518px) {
+.contactUsForm {
+	width:429px;
+	height:512px;
+	color:black;
+	background: url(images/contactUsFormSmall.png) ;
+	
+}
+
+.info3{
+	top:50px;
+	width:320px;
+	height:300px;
+}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 519px) {
+	
+	.contactUsForm {
+	width:519px;
+	height:629px;
+	color:black;
+	background: url(images/contactUsForm.png) ;
+}
+
+.info3{
+	top:50px;
+	width:400px;
+	height:609px;
+}
+
+
 <<<<<<< HEAD
-*/
 
 
 =======
