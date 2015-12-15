@@ -1378,6 +1378,11 @@ hr {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
+.great-images img{
+	width: 280px;
+	margin-left: -70px;
+}
+
 .hd-search #searchsubmit {
 	background-color: #fff;
 	color:#fff;
