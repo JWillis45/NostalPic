@@ -25,6 +25,7 @@
 			</div><!-- end row search images -->
 		</div><!-- end container -->
 	</div><!-- end banner 8 -->
+</div>
 </div><!-- end banner 9 -->
 
 <?php get_footer(); ?>
