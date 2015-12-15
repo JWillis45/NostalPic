@@ -2255,6 +2255,7 @@ hr {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -2341,32 +2342,37 @@ hr {
 	color:black;
 	background: url(images/contactUsFormSmall.png) ;
 	
+=======
+/*.middle-input-padding {
+	padding:0px;
+	width: 450px;
+	height: 56px;
+>>>>>>> parent of e3f1cfa... contact
 }
 
-.info3{
-	top:50px;
-	width:320px;
-	height:300px;
+.modal-user {
+	height: 14px;
+	width:14px;
 }
+<<<<<<< HEAD
 
 =======
 */
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
 
+=======
+.testing {
+	background-color: red;
+>>>>>>> parent of e3f1cfa... contact
 }
 =======
 >>>>>>> parent of 4b61243... changed search results page back to single column
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 519px) {
-	
-	.contactUsForm {
-	width:519px;
-	height:629px;
-	color:black;
-	background: url(images/contactUsForm.png) ;
+.panel {
+	background: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .info3{
 	top:50px;
@@ -2375,3 +2381,15 @@ hr {
 }
 =======
 >>>>>>> parent of 0166c43... Merge remote-tracking branch 'origin/Home-Page' into Home-Page
+=======
+.panel-default>.panel-heading {
+	background:none;
+	background: red;
+}
+<<<<<<< HEAD
+*/
+
+
+=======
+>>>>>>> origin/Home-Page
+>>>>>>> parent of e3f1cfa... contact
