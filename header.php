@@ -197,14 +197,10 @@
 <div class="row white">
 <div class="container header-long-search">
   <div class="row">
-    
-        <?php
-          
-          if(( is_home() )){
-}
-          else{
-              get_search_form();
-               echo  '<div class="dropdown cat-drop">
+    <?php
+      if(( !is_home() )){
+        get_search_form();
+          echo  '<div class="dropdown cat-drop">
                       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         | Categories
                         <span class="caret"></span>
@@ -234,8 +230,6 @@
                       </ul>
                     </div>';
               echo '<hr class="search-hr">';
-             
-
 }
 ?>
    

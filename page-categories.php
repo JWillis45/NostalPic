@@ -80,5 +80,4 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 </div>
 
 
-
 <?php get_footer(); ?>
