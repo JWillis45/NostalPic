@@ -160,8 +160,10 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   <div class="container">
     <div class="row">
       <div class="col-xs-3"></div>
-      <div class="col-xs-3 great-images">
-        <img src="<?php bloginfo ('template_directory') ?>/images/great-images.png" alt="">
+      <div class="col-xs-3 col-sm-3 great-images">
+        <img src="<?php bloginfo ('template_directory') ?>/images/great-images.png" class="hidden-sm" alt="">
+        <img src="<?php bloginfo ('template_directory') ?>/images/great-images-md.png" class="visible-sm" alt="">
+
       </div>
       <div class="col-xs-6 home-signup">
         <?php the_field('signup_form', 'options'); ?>
@@ -176,7 +178,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
   <div class="row home-bottom">
     <div class="col-xs-5 app">
       <h2>Access NostalPic Instantly!</h2>
-      <h4>Access the Nostalpic page instantly using the Nostalpic phone app, available on the android market atnd the iPhone</h4>
+      <h4>Access Nostalpic instantly using the NostalPic app, available on the Android market and the iPhone.</h4>
     </div>
     <div class="col-xs-7"></div>
   </div>
