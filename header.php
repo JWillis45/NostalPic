@@ -229,7 +229,7 @@
                         
                       </ul>
                     </div>';
-              echo '<hr class="search-hr">';
+              // echo '<hr class="search-hr">';
 }
 ?>
    
