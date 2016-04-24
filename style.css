@@ -1382,7 +1382,7 @@ hr {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
-.login-modal-body {
+.login-modal-header {
 	background-color: #000000;
 }
 
@@ -1397,6 +1397,10 @@ hr {
 .modal-login {
 	padding-left:90px;
 	margin:auto;
+}
+
+.modal-login .login-form {
+	background-color: #5f5e5e;
 }
 
 .login-modal-content {
@@ -1643,7 +1647,7 @@ hr {
 	background-size:cover;
 	margin:0px;
 	padding:0px;
-	height: 560px;
+	height: 565px;
 }
 .all-home-thumbs {
 	margin:0px auto;
