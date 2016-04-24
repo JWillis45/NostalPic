@@ -26,7 +26,7 @@
             <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs left-menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <ul class="dropdown-menu left-drop" aria-labelledby="dropdownMenu2">
               <li><a href="people-2">Photos</a></li>
               <li><a href="illustrations">Illustrations</a></li>
             </ul>
@@ -53,11 +53,140 @@
             <button type="button" class="btn btn-default dropdown-toggle visible-sm visible-xs right-menu" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <span class="glyphicon glyphicon-user collapse-user" aria-hidden="true"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
-              <li><a href="#">Signup</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Pricing</a></li>
+            <ul class="dropdown-menu right-drop" aria-labelledby="dropdownMenu3">
+              <li>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#signup">
+                  Signup
+                </button>
+              </li>
+              <li><button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#login">
+                  Login
+                  </button></li>
+              <li><button type="button" class="btn btn-primary btn-sm right-nav" data-toggle="modal" data-target="#pricing">
+                  Pricing
+                  </button>
+              </li>
             </ul>
+
+<!-- signup-md Modal -->
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Create an Account</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">
+        <div class="glyphicon glyphicon-user"></div>
+      </div>
+      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Full Name">
+    </div>
+  </div>
+  <div class="form-group middle-input-padding">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">
+        <div class="glyphicon glyphicon-envelope"></div>
+      </div>
+      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Email Address">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">
+        <div class="glyphicon glyphicon-lock"></div>
+      </div>
+      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Password">
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary signup-button">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end signup-md modal -->
+<!-- pricing-md Modal -->
+<div class="modal fade" id="pricing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Two Easy Options</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-xs-6">
+              <div class="price-box1">
+                <h3>Essentials</h3>
+                  <h2>$10/mo.</h2> 
+                  <p>
+                    500 Downloads
+                    <br>
+                    SD/HD Images
+                    <br>
+                    24/7 Customer Support
+                  </p>  
+
+              </div>
+            
+          </div>
+          <div class="col-xs-6">
+              <div class="price-box2">
+               <h3>Signature Plan</h3>
+                  <h2>$15/mo.</h2>
+                  <p>
+                    Unlimited Downloads
+                    <br>
+                    SD/HD Images
+                    <br>
+                    24/7 Customer Support
+                  </p>   
+              </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#"><button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button></a>
+        <a href="#"><button type="button" class="btn btn-primary select-plan-button">Select a Plan</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end pricing modal-md -->
+<!-- login-md Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content login-modal-content">
+      <div class="modal-header login-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body login-modal-body">
+        <div class="row">
+          <div class="col-xs-12 modal-login">
+            <?php the_field('login_form', 'options'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- end login modal-md -->
 <!-- End User Navigation Collapsed -->
 		
           

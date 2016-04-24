@@ -47,7 +47,7 @@
 
 
 .search-images-col {
-	width: 100%;
+	width: 110%;
 	margin:auto;
 	margin-left: -33px;
 	margin-top: 25px;
@@ -946,6 +946,7 @@ hr {
 
 .right-nav-lg {
 	float: right;
+	width:300px;
 }
 
 .gform_button {
@@ -1381,6 +1382,91 @@ hr {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
+.login-modal-body {
+	background-color: #000000;
+}
+
+/*.gform_body .ginput_container_email {
+	width: 600px;
+}
+
+.gform_body .ginput_container_text {
+	width: 600px;
+}*/
+
+.modal-login {
+	padding-left:90px;
+	margin:auto;
+}
+
+.login-modal-content {
+	width:400px;
+	margin:auto;
+	margin-top:150px;
+
+}
+
+.modal-login .gform_footer .button {
+	margin-left:40px;
+}
+/*.gform_body .ginput_container_email {
+	width:600px;
+	margin-left:125px;
+}
+
+.gform_body .ginput_container_text {
+	width:600px;
+	margin-left:125px;
+}
+
+#gform_submit_button_5 {
+	margin-left:212px;
+}*/
+
+.right-drop {
+	width: 100px;
+	margin-left:128px;
+	margin-top:10px;
+}
+
+.right-drop li {
+	width: 80px;
+	margin:auto;
+}
+
+.right-nav {
+	color:#000000;
+}
+
+.left-drop {
+	width: 100px;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.left-drop li {
+	font-size: 15px;
+	width: 130px;
+	margin:auto;
+}
+
+.left-drop li a:hover {
+	font-size: 15px;
+	background: none;
+	border: none;
+	color: #d9b686;
+}
+.sr-image {
+	overflow: hidden;
+	width: 900px;
+	height: 267px;
+	float: left;
+	padding:20px;
+	padding-top: 23px;
+	border: solid #fff;
+	border-width: 1px;
+	overflow: hidden;
+}
 
 .search-results-headline {
 	font-size: 30px;
@@ -1404,8 +1490,8 @@ hr {
 	height: 1485px;
 }
 .search-images-col {
-	width: 810px;
-	margin-left: 10px;
+	width: 900px;
+	margin-left: -20px;
 	padding:auto;
 	height: 1336px;
 	overflow: hidden;
@@ -1413,7 +1499,7 @@ hr {
 
 .sr-image {
 	overflow: hidden;
-	width: 380px;
+	width: 410px;
 	height: 267px;
 	float: left;
 	padding:20px;
