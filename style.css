@@ -4,6 +4,11 @@
   Author: Joe, Anthony, Irvin
 */
 
+.bababa {
+	height: 500px;
+	background: url(images/bioBg.png) no-repeat left top;
+	background-size: 90% 80%;
+}
 
 .right-menu {
 	background:none;
@@ -399,6 +404,19 @@ hr {
 	width: 100%;
 }
 
+.banner11 {
+	background: url('images/brown-paper.png') no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	height: 450px;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	width: 100%;
+}
 .concrete {
 
 	background-repeat: no-repeat;
@@ -414,6 +432,12 @@ hr {
 	border:solid #fff;
 	border-width: 8px;
 	background-color: #fff;
+}
+
+.single-title {
+	color:#fff;
+	font-size: 20px;
+	text-align: center;
 }
 
 .h-thumbs-col {
@@ -1382,6 +1406,125 @@ hr {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
+.contactUsInfo {
+	margin:auto;
+}
+
+.contactUsForm {
+	margin:auto;
+	margin-left: 220px;
+}
+
+.info3 {
+	
+	margin-left: 150px;
+	margin-top:40px;
+}
+
+.header-long-search {
+	
+	background-color: #ffffff;
+}
+
+.white {
+	background-color: #ffffff;
+	
+	height:55px;
+}
+
+.aboutBanner {
+	z-index: -1;
+	position:relative;
+}
+
+.container-fluid {
+	z-index:3;
+}
+.bababa {
+	height: 500px;
+	width: 500px;
+	background: url(images/bioBg.png) no-repeat left top;
+	background-size: 64% 80%;
+	background-position: 34% 0%;
+	margin:auto;
+	
+	margin-left: 100px;
+}
+
+.bababa h2{
+	text-align: center;
+}
+
+.bababa p{
+	width:300px;
+	margin-left: 90px;
+	text-indent: 30px;
+}
+
+.bababa em {
+	margin-left: 90px;
+}
+
+.sm-check {
+	background-color: #cccccc;
+}
+.single-row {
+	width: 100%;
+}
+.margBtm {
+	width: 100%;
+
+
+}
+
+.padTop {
+	width:200px;
+	float:left;
+	margin-left:60px;
+	margin-top:-45px;
+	
+}
+
+.padTop p {
+	color:#ffffff;
+	font-size:20px;
+	text-align: center;
+	margin-left:-60px;
+}
+
+.padTop .btn-primary {
+	margin-left: 24px;
+	background-color: #d9b686;
+	border-color:#000000;
+}
+.single-title h1{
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+
+
+
+}
+
+
+.single-title img {
+	width:400px;
+	float:left;
+	border:solid #ffffff;
+	border-width: 2px;
+	margin-left: 20px;
+	max-height: 280px;
+}
+
+.similar {
+	margin-top: -8px;
+}
+
+.similar h3 {
+	color:#ffffff;
+
+}
 .login-modal-header {
 	background-color: #000000;
 }
@@ -2529,11 +2672,7 @@ hr {
 	padding: 30px 110px 0px 40px;
 }
 
-.bababa {
-	height: 500px;
-	background: url(images/bioBg.png) no-repeat left top;
-	background-size: 90% 80%;
-}
+
 
 .bio p {
 	padding-top: 20px;
@@ -2812,6 +2951,7 @@ hr {
 	padding:22px 22px 22px 27px;
 	border: 1px solid black;
 	display: inline-block;
+	background-color:#cccccc;
 }
 
 .sm_check:hover, .md_check:hover {

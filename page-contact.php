@@ -12,8 +12,8 @@ Template Name: Contact Page
 					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 contactUsInfo" >
 						<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 info1">
 					<ul style="list-style-type:none; font-size:14px;">
-						<li>123 Fake St.</li>
-						<li>Northridge, CA</li>
+						<li>742 Evergreen Terrace</li>
+						<li>Springfield, CA</li>
 						<li>91324</li>
 						<li>(xxx)xxx-xxxx</li>
 

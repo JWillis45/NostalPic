@@ -2,10 +2,10 @@
 	<?php
 	if (have_posts()) : while (have_posts()) : the_post();
 	?>
-
+	<div class="banner11">
 	<div class="container margBtm">
-		<div class="row">
-			<div class="col-md-6">
+		<div class="row single-row">
+			<div class="col-md-6 single-title">
 				<h1><?php the_title();?></h1>
 				<img src="<?php the_field('image'); ?>" alt="">
 			</div><!-- /col -->
@@ -24,7 +24,7 @@
 				<div class="margBtm">
 					<a href="<?php echo the_field('image');?>" download="<?php the_field('image');?>" class="btn btn-primary">Download</a>
 				</div>
-				<p>
+				<!-- <p>
 					Categories:
 					<br>
 					<?php
@@ -32,9 +32,9 @@
 						    echo "<a href='".bloginfo('url')."'>".$category->cat_name."</a>";
 						}
 					?>
-				</p>
+				</p> -->
 			</div><!-- /col -->
-			<div class="col-md-3">
+			<div class="col-md-3 similar">
 				<h3>Similar Photos</h3>
 				<?php
 					$args = array(
@@ -54,7 +54,9 @@
 				<?php wp_reset_query(); ?>
 			</div><!--/col--->
 		</div><!-- /row -->
+		</div>
 	</div><!-- /container -->
+	</div>
 
 	<?php endwhile; else: ?>
 		<p>Sorry, no posts matched your criteria.</p>

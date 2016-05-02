@@ -52,7 +52,7 @@ Template Name: About Page
               <h2>Irvin Castillo</h2>
               <small><em>Web Designer</em></small>
               <p>
-                Irvin Castillo (Creator of award winning App Pick Me) is a Multi-Media production student. He has made such impacts on the internet like Mixer Grounds, and has partnered up with Anthony Gaona to make the epic game Williamson. The 24 year old senior dreams of one day working for the multi-million dollar company brazzers.
+                Irvin Castillo (Creator of award winning App Pick Me) is a Multi-Media production student. He has made such impacts on the internet like Mixer Grounds, and has partnered up with Anthony Gaona to make the epic game Williamson.
               </p>
             </div> <!-- end bio -->
           </div> <!-- end column -->
@@ -65,7 +65,7 @@ Template Name: About Page
           <!-- Picture -->
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-9 col-sm-offset-3 col-xs-12">
             <div class="imageBorder">
-              <img src="<?php bloginfo('template_directory'); ?>/images/irvin.png" class="img-responsive" alt="Irvin Castillo" />
+              <img src="<?php bloginfo('template_directory'); ?>/images/joe.jpg" class="img-responsive" alt="Irvin Castillo" />
             </div>
           </div> <!-- end column -->
           <!-- spacing -->
@@ -88,7 +88,7 @@ Template Name: About Page
           <!-- Picture -->
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-9 col-sm-offset-3 col-xs-12">
             <div class="imageBorder">
-              <img src="<?php bloginfo('template_directory'); ?>/images/irvin.png" class="img-responsive" alt="Irvin Castillo" />
+              <img src="<?php bloginfo('template_directory'); ?>/images/anthony.jpg" class="img-responsive" alt="Irvin Castillo" />
             </div>
           </div> <!-- end column -->
           <!-- spacing -->
